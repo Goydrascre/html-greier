@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(242, 181, 111);
+    #rcorners1 {
+        border-radius: 25px;
+        background: #73AD21;
+        padding: 20px; 
+        width: 500px;
+        height: 250px;  
+      }
+      
+      #rcorners2 {
+        border-radius: 50px;
+        border: 3px solid #ffffff;
+        padding: 10px; 
+        width: 200px;
+        height: 150px;  
+       }
+
+
+       .gridy {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 1px;
+        background-color: #ffffff;
+        padding: 1px;
+       }
+
+        .grid-item {
+            background-color: rgba(0, 0, 0, 0);
+            border: 12px solid rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            font-size: 70px;
+            text-align: right;
+          }
+}
